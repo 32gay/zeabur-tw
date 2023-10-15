@@ -12,7 +12,7 @@ const errcb = (...args) => console.error.bind(this, ...args);
 const projectPageURL = `https://www.google.com`;
 const uuid = (process.env.UUID || '1453aac3-62be-4457-9079-1c32c78ae33c').replace(/-/g, "");
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.b1ly.com:5555';
-const NEZHA_KEY = process.env.NEZHA_KEY || 'ZyES5OR2zmlKfF3r1V';
+const NEZHA_KEY = process.env.NEZHA_KEY || 'B0BZQzoCLurooprqVk';
 const port = process.env.PORT || 3000;
 
 // 创建HTTP服务
